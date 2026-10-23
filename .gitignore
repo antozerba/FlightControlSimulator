@@ -1,0 +1,22 @@
+# Course material: local only (ADR-0008)
+references/*
+!references/README.md
+
+# Build outputs
+build/
+out/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs and flight data (too large / personal; archive separately)
+*.ulg
+logs/raw/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
